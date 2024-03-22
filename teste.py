@@ -1,0 +1,33 @@
+from tkinter import *
+calculadora = Tk()
+calculadora.title('testando 123')
+calculadora.geometry('500x600+500+100')
+calculadora.resizable(width=False, height=False)
+calculadora.config(bg='#022a3b')
+
+#entry
+campoNumeros = Entry(calculadora, width = 50)
+campoNumeros.place(x = 100, y = 25)
+
+#botoes
+Bt1 = Button(calculadora, text='1', relief=FLAT, width=10, height=3)
+Bt1.place(x=50, y=150)
+Bt2 = Button(calculadora, text='2', relief=FLAT, width=10, height=3)
+Bt2.place(x=200, y=150)
+Bt3 = Button(calculadora, text='3', relief=FLAT, width=10, height=3)
+Bt3.place(x=350, y=150)
+Bt4 = Button(calculadora, text='4', relief=FLAT, width=10, height=3)
+Bt4.place(x=50, y=270)
+Bt5 = Button(calculadora, text='5', relief=FLAT, width=10, height=3)
+Bt5.place(x=200, y=270)
+Bt6 = Button(calculadora, text='6', relief=FLAT, width=10, height=3)
+Bt6.place(x=350, y=270)
+Bt7 = Button(calculadora, text='7', relief=FLAT, width=10, height=3)
+Bt7.place(x=50, y=390)
+Bt8 = Button(calculadora, text='8', relief=FLAT, width=10, height=3)
+Bt8.place(x=200, y=390)
+Bt9 = Button(calculadora, text='9', relief=FLAT, width=10, height=3)
+Bt9.place(x=350, y=390)
+Bt0 = Button(calculadora, text='0', relief=FLAT, width=10, height=3)
+Bt0.place(x=200, y=510)
+calculadora.mainloop()
